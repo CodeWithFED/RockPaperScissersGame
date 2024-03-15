@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game RPS</title>
+  </head>
+  <body>
+    <main>
+      <h1>Rock paper scissors game</h1>
+      <div class="container">
+        <div class="container name">🧑🏻</div>
+        <div class="container name">🧑🏻‍💻</div>
+      </div>
+      <div class="container">
+        <div class="choces_icons" id="Player_choice">
+          <button id="rock" class="btn">✊</button>
+          <button id="paper" class="btn">🖐️</button>
+          <button id="scissors" class="btn">✌️</button>
+        </div>
+        <div id="comparison" class="container">
+          &RightAngleBracket; &equals; &LeftAngleBracket;
+        </div>
+        <div
+          class="container choces_icons animate__animated"
+          id="Computer_choice"
+        >
+          💻
+        </div>
+      </div>
+      <div class="container rating">
+        <div class="container" id="player1_status">status</div>
+        <div class="container" id="player2_status">status</div>
+        <div class="container" id="player1_score">0</div>
+        <div class="container" id="player2_score">0</div>
+      </div>
+    </main>
+    <footer>©2024 CodeWithFed</footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
