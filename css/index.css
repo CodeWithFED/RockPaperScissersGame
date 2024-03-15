@@ -4,6 +4,9 @@
 *::before {
     box-sizing: bor;
 }
+::selection {
+    user-select: none;
+}
 
 html {
     font-size: 120%;
